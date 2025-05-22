@@ -59,6 +59,8 @@ All files were ingested into a **MySQL database (`ecommerce_db`)** using Pythonâ
 ---
 
 ## ðŸ“š Data Resources & Their Use
+Dataset Link-https://www.kaggle.com/datasets/devarajv88/target-dataset?select=products.csv
+Download the Dataset from above link.
 
 The dataset comprises seven structured CSV, each representing a key component of an eCommerce business. These files were loaded into a MySQL database using Python and PyMySQL, then analyzed using SQL and Python (pandas, matplotlib, seaborn).
 Structured CSV files include:
