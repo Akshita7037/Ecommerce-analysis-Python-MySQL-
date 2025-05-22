@@ -1,20 +1,20 @@
 # 🛒 E-commerce Data Analysis Project
 
-This project analyzes a real-world e-commerce dataset using Python and SQL to uncover trends in customer behavior, sales performance, and product dynamics.
+This project demonstrates a full-stack data analysis workflow for an e-commerce business using Python, SQL (MySQL), and data visualization libraries such as Matplotlib and Seaborn. The project covers data ingestion, cleaning, querying, visualization, and advanced analytics to derive key business insights.
 
 ## 📦 Data Ingestion
-- Imported CSV files into **MySQL database** using **PyMySQL**
+All files were ingested into a **MySQL database (`ecommerce_db`)** using Python’s `pandas` and `SQLAlchemy`:
 - Structured tables include:
-  - Customers
-  - Orders
-  - Order Items
-  - Products
-  - Sellers
-  - Payments
-  - Geolocation
+  - customers
+  - orders
+  - order_items
+  - products
+  - sellers
+  - payments
+  - geolocation
 
 
-## 🧾 SQL-Based Analysis
+## 🧾Data Analysis SQL queries and Python visualizations
 
 ### 🔹 Basic Queries
 1. Listed all unique cities where customers are located  
@@ -40,21 +40,36 @@ This project analyzes a real-world e-commerce dataset using Python and SQL to un
 ---
 
 ## 📊 Visualizations
-- Sales trends over time
-- Payment type distributions
-- Top-selling products and sellers
-- Customer and order density by location
-- Revenue heatmaps and bar charts
+- Bar plots showing customer distribution by state  
+- Monthly trend analysis of orders in 2018  
+- Category-wise revenue share  
+- Top seller revenue chart  
+- Customer spending trend per year
+
+
+
+## 🔧 Technologies Used
+
+- **Python (pandas, numpy, matplotlib, seaborn)**
+- **MySQL** (via PyMySQL and SQLAlchemy)
+- **Jupyter Notebook**
+- **Data Ingestion** with `pandas` and `SQLAlchemy`
+- **Data Analysis** with SQL queries and Python visualizations
 
 ---
 
-## 🛠 Tools & Technologies
-- **Python**: pandas, matplotlib, seaborn, PyMySQL  
-- **SQL**: MySQL for querying and aggregation  
-- **Jupyter Notebook**: Analysis and visualization  
-- **Excel**: Source files for data ingestion  
+## 📚 Data Resources & Their Use
 
----
+The dataset comprises seven structured CSV, each representing a key component of an eCommerce business. These files were loaded into a MySQL database using Python and PyMySQL, then analyzed using SQL and Python (pandas, matplotlib, seaborn).
+Structured CSV files include:
+  - customers
+  - orders
+  - order_items
+  - products
+  - sellers
+  - payments
+  - geolocation
+
 
 ## 🎯 Goal
 To build strong analytical skills by solving real business problems through SQL, Python, and data storytelling — preparing for a career in data analytics.
