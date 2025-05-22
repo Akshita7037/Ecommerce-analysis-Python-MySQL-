@@ -2,14 +2,17 @@
 
 This project analyzes a real-world e-commerce dataset using Python and SQL to uncover trends in customer behavior, sales performance, and product dynamics.
 
-## 🧠 Key Operations
+## 📦 Data Ingestion
+- Imported CSV files into **MySQL database** using **PyMySQL**
+- Structured tables include:
+  - Customers
+  - Orders
+  - Order Items
+  - Products
+  - Sellers
+  - Payments
+  - Geolocation
 
-### 📥 Data Loading & Preprocessing
-- Imported datasets: customers, orders, order items, payments, products, sellers, geolocation
-- Cleaned and merged datasets for relational analysis
-- Handled missing values and data type conversions
-
----
 
 ## 🧾 SQL-Based Analysis
 
@@ -46,14 +49,12 @@ This project analyzes a real-world e-commerce dataset using Python and SQL to un
 ---
 
 ## 🛠 Tools & Technologies
-- **Python**: pandas, matplotlib, seaborn  
+- **Python**: pandas, matplotlib, seaborn, PyMySQL  
 - **SQL**: MySQL for querying and aggregation  
 - **Jupyter Notebook**: Analysis and visualization  
-- **Excel**: Data reference and initial inspection  
+- **Excel**: Source files for data ingestion  
 
 ---
 
 ## 🎯 Goal
 To build strong analytical skills by solving real business problems through SQL, Python, and data storytelling — preparing for a career in data analytics.
-
-
