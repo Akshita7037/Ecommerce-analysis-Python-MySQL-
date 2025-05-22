@@ -14,7 +14,7 @@ All files were ingested into a **MySQL database (`ecommerce_db`)** using Python�
   - geolocation
 
 
-## 🧾Data Analysis SQL queries and Python visualizations
+## 🧾Data Analysis with SQL queries and Python visualizations
 
 ### 🔹 Basic Queries
 1. Listed all unique cities where customers are located  
